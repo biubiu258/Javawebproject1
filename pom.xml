@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>Javawebproject1</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>lession01</module>
+    <module>lession02</module>
+    <module>lession03</module>
+    <module>lession04</module>
+    <module>lession05</module>
+    <module>lession06</module>
+      <module>lession07</module>
+      <module>lession08</module>
+      <module>lession09</module>
+      <module>lession10</module>
+  </modules>
+  <version>1.0-SNAPSHOT</version>
+  <name>Javawebproject1 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>jakarta.servlet.jsp.jstl</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.web</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+      <version>3.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>5.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>Javawebproject1</finalName>
+  </build>
+</project>
