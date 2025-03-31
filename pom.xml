@@ -15,6 +15,7 @@
       <module>lession08</module>
       <module>lession09</module>
       <module>lession10</module>
+      <module>lession11-ajax</module>
   </modules>
   <version>1.0-SNAPSHOT</version>
   <name>Javawebproject1 Maven Webapp</name>
